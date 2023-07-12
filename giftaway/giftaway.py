@@ -130,7 +130,7 @@ class Gift:
 				desc += text
 		embed = discord.Embed(
 			title=_(
-				'First Come, First Serve! {author} is Gifting {num} Random Amounts **{game}**.'
+				'First Come, First Serve! \n <@584873243090092038> is Gifting {num} Random Amounts of **{game}**.'
 			).format(author=self.author.display_name, num=total, game=self.game_name),
 			description=desc,
 			url=self.link_url
