@@ -1,4 +1,5 @@
 # CogsRemastered by CAT9161
+# THESE COGS ARE NOT MADE BY ME. I ONLY EDIT THEM FOR MY OWN USE TO FIT THE NEEDS OF MY SERVER, USE AT YOUR OWN RISK.
 
 [![Discord server](https://discordapp.com/api/guilds/535921134152187919/embed.png)](https://discord.gg/HqjqzzVNCG)
 [![Red cogs](https://img.shields.io/badge/Red--DiscordBot-cogs-red.svg)](https://github.com/Cog-Creators/Red-DiscordBot/tree/V3/develop)
