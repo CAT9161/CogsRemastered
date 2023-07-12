@@ -260,7 +260,7 @@ class GiftAwayView(discord.ui.View):
 		super().__init__(timeout=None)
 		self.cog = cog
 	
-	@discord.ui.button(label=_('Claim key'), style=discord.ButtonStyle.primary, custom_id='giftaway_key_button')
+	@discord.ui.button(label=_('Claim Coins'), style=discord.ButtonStyle.primary, custom_id='giftaway_key_button')
 	async def callback(self, interaction, button):
 		"""Claim a key from a gift."""
 		if not interaction.message or not interaction.user:
