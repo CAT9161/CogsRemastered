@@ -78,3 +78,5 @@ Feel free to create an issue on this repository or join [my discord](https://dis
 Thanks to:  
 The [creators of Redbot](https://github.com/Cog-Creators/Red-DiscordBot/graphs/contributors) for creating the base these cogs run on,  
 The helpful support staff at the [Redbot discord](https://discord.gg/red),  
+
+# THESE COGS ARE NOT MADE BY ME. I ONLY EDIT THEM FOR MY OWN USE TO FIT THE NEEDS OF MY SERVER, USE AT YOUR OWN RISK.
