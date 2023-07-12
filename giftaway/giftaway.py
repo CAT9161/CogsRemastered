@@ -123,14 +123,14 @@ class Gift:
 				'Currently available: **{top}/{bottom}**'
 			).format(top=len(self.keys), bottom=total)
 		else:
-			desc = _('All keys have been claimed!')
+			desc = _('Everything Claimed!')
 		if self.claimed_by_text:
 			desc += _('\n\nClaimed by:')
 			for text in self.claimed_by_text:
 				desc += text
 		embed = discord.Embed(
 			title=_(
-				'First Come, First Serve! \n <@584873243090092038> is Gifting {num} Random Amounts of **{game}**.'
+				'First Come, First Serve! \n{author} is Gifting {num} Random Amounts of **{game}**.'
 			).format(author=self.author.display_name, num=total, game=self.game_name),
 			description=desc,
 			url=self.link_url
@@ -230,7 +230,7 @@ class Gift:
 		"""Give one of the keys to a particular user."""
 		key = self.keys.pop(0)
 		try:
-			await member.send(_('Here is the amount of `{game}` you got: `{key}`').format(game=self.game_name, key=key))
+			await member.send(_('Here is the amount of `{game}` you got: `{key}` \nClaim at: https://discord.com/channels/1125209928026562640/1125390535767638117/1125670000716431443').format(game=self.game_name, key=key))
 		except discord.HTTPException:
 			self.keys.append(key)
 			return
