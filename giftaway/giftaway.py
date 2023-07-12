@@ -236,7 +236,7 @@ class Gift:
 			return
 		self.claimed_by_id.append(member.id)
 		self.claimed_by_text.append(_(
-			'\n**{name}** in **{guild}**'
+			'\n`{key}` - Claimed by **{name}**'
 		).format(name=member.display_name, guild=member.guild.name))
 		self.claimed.append(key)
 		await self.refresh_messages()
