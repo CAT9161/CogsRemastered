@@ -1,4 +1,4 @@
-# FlameCogs
+# CogsRemastered by CAT9161
 
 [![Discord server](https://discordapp.com/api/guilds/535921134152187919/embed.png)](https://discord.gg/HqjqzzVNCG)
 [![Red cogs](https://img.shields.io/badge/Red--DiscordBot-cogs-red.svg)](https://github.com/Cog-Creators/Red-DiscordBot/tree/V3/develop)
