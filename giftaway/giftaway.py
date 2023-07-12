@@ -236,8 +236,8 @@ class Gift:
 			return
 		self.claimed_by_id.append(member.id)
 		self.claimed_by_text.append(_(
-			'\n{key} - Claimed by **{name}**'
-		).format(name=member.display_name, guild=member.guild.name, key=self.keys.pop(0)))
+			'\n**{name}** Claimed 1 Random Amount of 8BP~Coins'
+		).format(name=member.display_name, guild=member.guild.name))
 		self.claimed.append(key)
 		await self.refresh_messages()
 		if len(self.keys) == 0:
